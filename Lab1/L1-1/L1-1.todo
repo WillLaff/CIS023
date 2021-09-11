@@ -1,0 +1,11 @@
+- prompt user 
+    - # of dies in a set (4-6) that gets rolled together
+    - # of times set will be rolled
+- sum of faces will be index to an array
+    - holds # of times sum has occurred
+
+- display bar graph
+    - shows sum value
+    - # of times rolled
+    - bar of asteriks
+        - 2% of highest count recorded
