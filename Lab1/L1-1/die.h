@@ -27,5 +27,5 @@ void die::roll()
 
 int die::getNum() const
 {
-    
+    return 0;
 }

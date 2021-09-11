@@ -1,28 +1,27 @@
-//* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
-//* Program name    : .cpp                                          *   
-//*                                                                     * 
-//* Written by      : William Laffey                                    * 
-//*                                                                     * 
-//* Purpose         : 
-//*                                                                     * 
-//* Inputs          : 
-//*                                                                     * 
-//* Outputs         : 
-//*                                                                     * 
-//* Calls           : 
-//*                                                                     * 
-//* Structure       : BEGIN                                             * 
-//*                        
-//*                   STOP                                              * 
-//*                        End of program.                              *
-//*                                                                     * 
-//*---------------------------------------------------------------------* 
-//* Change Log:                                                         * 
-//*                            Revision                                 * 
-//*   Date        Changed  Rel Ver Mod Purpose                          * 
-//* 00/00/21      wlaffey  001.000.000 Initial release of program       * 
-//*                                                                     * 
-//* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+/*
+    Program name    : .cpp
+
+    Written by      : William Laffey
+
+    Purpose         : 
+
+    Inputs          : 
+
+    Outputs         : 
+
+    Calls           : 
+
+    Structure       : BEGIN                                             
+                           
+                      STOP                                              
+                           
+                                                                        
+   ---------------------------------------------------------------------
+    Change Log:                                                         
+                               Revision                                 
+      Date        Changed  Rel Ver Mod Purpose                          
+    00/00/21      wlaffey  001.000.000 Initial release of program       
+                                                                        */
 #include <iostream>
 #include <iomanip>
 using namespace std;
