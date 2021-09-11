@@ -8,6 +8,7 @@ class die
 public:
     die()
     {
+        srand(time(0));
         num = 1;
     }
     //Default constructor
@@ -29,7 +30,6 @@ private:
 
 void die::roll()
 {
-        srand(time(0));
         num = (rand() % 6 + 1);
 }
 
