@@ -36,9 +36,9 @@ int main()
          << "L1-1.exe" << endl;
 
     //declarations
-    int dice;
+    int dice, sum;
     long rolls;
-    die die;
+    int array[36];
 
     //asks for number of dice
     cout << "\nEnter the number of Dies to use (4, 5, or 6): ";
@@ -66,10 +66,30 @@ int main()
         return 0;
     }
 
-    //rolls dice
-    int n;
-    die.roll(dice, n);
-    cout << n << endl;
+    //rolls dice (got help from Bailey Nichols)
+    for (int i = 0; i < rolls; i++)
+    {
+        for (int j = 0; j < dice; j++)
+        {
+            die die;
+            die.roll();
+            sum = sum + die.getNum();
+        }
+        array[sum] = sum + 1;
+        sum = 0;
+    }
+
+    //displays graph
+    cout << "For " << dice << " dice, rolled " << rolls << " times" << endl;
+    cout << "Count %:---   0    10   20   30   40   50   60   70   80   90   100" << endl;
+    cout << "Sum    count  |....|....|....|....|....|....|....|....|....|....|" << endl;
+
+    for (int k = dice; k < (dice * 6 + 1); k++)
+    {
+        cout << " "   << setw(2) << k ;
+        cout << "  (" << setw(4) << array[k] << ")   ";
+        cout << endl;
+    }
 
     //Waits for input to close program
     char q;
