@@ -79,7 +79,7 @@ int main()
         sum = 0;
     }
 
-    //determines largest number for bar graph
+    // determines largest number for bar graph
     for (int y = 0; y < (dice * 6 + 1); y++) 
     {
         if (array[y] > largestNum)
@@ -95,9 +95,10 @@ int main()
     //displays sum and count
     for (int k = 0; k < (dice * 6 + 1); k++)
     {
-        cout << " "   << setw(2) << k ;
+        cout << " "   << setw(2) << k;
         cout << "  (" << setw(4) << array[k] << ")   ";
-        for (float l = 0; l < (array[k] / largestNum); l = l + .02) 
+        float asterikWorth = largestNum * .02;
+        for (float l = 0; l < (array[k] / asterikWorth); l++)
         {
             cout << "*";
         }
@@ -112,4 +113,3 @@ int main()
 
     return 0;
 }
-// Sum    count  |....|....|....|....|....|....|....|....|....|....|
