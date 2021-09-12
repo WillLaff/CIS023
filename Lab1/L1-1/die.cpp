@@ -36,6 +36,7 @@ int main()
 
     //declarations
     int dice, sum;
+    int largestNum = 0;
     long rolls;
     int array[36] = {0};
     die die;
@@ -78,15 +79,28 @@ int main()
         sum = 0;
     }
 
+    //determines largest number for bar graph
+    for (int y = 0; y < (dice * 6 + 1); y++) 
+    {
+        if (array[y] > largestNum)
+        {
+            largestNum = array[y];
+        }
+    }
+
     cout << "For " << dice << " dice, rolled " << rolls << " times" << endl;
     cout << "Count %:---   0    10   20   30   40   50   60   70   80   90   100" << endl;
     cout << "Sum    count  |....|....|....|....|....|....|....|....|....|....|" << endl;
 
     //displays sum and count
-    for (int k = dice; k < (dice * 6 + 1); k++)
+    for (int k = 0; k < (dice * 6 + 1); k++)
     {
         cout << " "   << setw(2) << k ;
         cout << "  (" << setw(4) << array[k] << ")   ";
+        for (float l = 0; l < (array[k] / largestNum); l = l + .02) 
+        {
+            cout << "*";
+        }
         cout << endl;
     }
 
@@ -98,4 +112,4 @@ int main()
 
     return 0;
 }
-//Sum    count  |....|....|....|....|....|....|....|....|....|....|
+// Sum    count  |....|....|....|....|....|....|....|....|....|....|

@@ -1,20 +1,28 @@
-- prompt user 
-    - # of dies in a set (4-6) that gets rolled together @done
-    - # of times set will be rolled @done
-- sum of faces will be index to an array
-    - holds # of times sum has occurred @done
-
-- display bar graph
-    - shows sum value
-    - # of times rolled
-    - bar of asteriks
-        - 2% of highest count recorded
-
-- roll
-    - roll # of dice @done
-    - add sum to array @done
-    - repeat # of times @done
-
-- array
-    - index of array = 0
-    - increases each time
+For 4 dice, rolled 2500 times
+Count %:---   0    10   20   30   40   50   60   70   80   90   100
+Sum    count  |....|....|....|....|....|....|....|....|....|....|
+  0  (   0)
+  1  (   0)
+  2  (   0)
+  3  (   0)
+  4  (   3)
+  5  (   6)   *
+  6  (  29)   ****
+  7  (  38)   ******
+  8  (  59)   *********
+  9  ( 118)   *******************
+ 10  ( 157)   **************************
+ 11  ( 197)   ********************************
+ 12  ( 230)   **************************************
+ 13  ( 282)   ***********************************************
+ 14  ( 272)   *********************************************
+ 15  ( 298)   *************************************************
+ 16  ( 229)   **************************************
+ 17  ( 193)   ********************************
+ 18  ( 152)   *************************
+ 19  ( 117)   *******************
+ 20  (  59)   *********
+ 21  (  37)   ******
+ 22  (  16)   **
+ 23  (   5)
+ 24  (   3)
