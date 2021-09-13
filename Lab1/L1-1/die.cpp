@@ -17,7 +17,7 @@
     Structure       : BEGIN                                             
                            Straight line code no sub-processes
                       STOP                                              
-                           End of program
+                           End of program 
                                                                         
    ---------------------------------------------------------------------
     Change Log:                                                         
