@@ -3,24 +3,27 @@
 
     Written by      : William Laffey
 
-    Purpose         : 
+    Purpose         : Records how many times the sum of a certain 
+                      number of dice are rolled.
 
-    Inputs          : 
+    Inputs          : Number of dice to be rolled
+                      Number of times dice will be rolled
 
-    Outputs         : 
+    Outputs         : Number of times that each sum of dice were rolled 
+                      with a bar graph for visual reference
 
-    Calls           : 
+    Calls           : Calls to header file called "die.h"
 
     Structure       : BEGIN                                             
-                           
+                           Straight line code no sub-processes
                       STOP                                              
-                           
+                           End of program
                                                                         
    ---------------------------------------------------------------------
     Change Log:                                                         
                                Revision                                 
       Date        Changed  Rel Ver Mod Purpose                          
-    00/00/21      wlaffey  001.000.000 Initial release of program       
+    09/12/21      wlaffey  001.000.000 Initial release of program       
                                                                         */
 //include statements
 #include "die.h"
