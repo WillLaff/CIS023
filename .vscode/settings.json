@@ -1,7 +1,11 @@
 {
     "files.associations": {
         "iostream": "cpp",
-        "ostream": "cpp"
+        "ostream": "cpp",
+        "*.tcc": "cpp",
+        "limits": "cpp",
+        "type_traits": "cpp",
+        "iosfwd": "cpp"
     },
     "cSpell.customDictionaries": {
         "custom-dictionary-workspace": {

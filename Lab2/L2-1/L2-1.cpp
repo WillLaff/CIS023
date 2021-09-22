@@ -3,18 +3,18 @@
 
     Written by      : William Laffey
 
-    Purpose         : 
+    Purpose         : Overloads each operator to produce desired output
 
-    Inputs          : 
+    Inputs          : None
 
-    Outputs         : 
+    Outputs         : Result of each overloaded operator
 
-    Calls           : 
+    Calls           : Class file called rectangleType.h
 
     Structure       : BEGIN                                             
-                           
+                           Straight through, no sub-processes
                       STOP                                              
-                           
+                           End of process
                                                                         
    ---------------------------------------------------------------------
     Change Log:                                                         
