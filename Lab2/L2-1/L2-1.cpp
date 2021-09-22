@@ -1,5 +1,5 @@
 /*
-    Program name    : .cpp
+    Program name    : L2-1.cpp
 
     Written by      : William Laffey
 
