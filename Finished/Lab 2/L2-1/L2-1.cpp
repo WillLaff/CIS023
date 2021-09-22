@@ -20,7 +20,7 @@
     Change Log:                                                         
                                Revision                                 
       Date        Changed  Rel Ver Mod Purpose                          
-    09/21/21      wlaffey  001.000.000 Initial release of program       
+    00/00/21      wlaffey  001.000.000 Initial release of program       
                                                                         */
 #include <iostream>
 #include <iomanip>
