@@ -1,5 +1,5 @@
 /*
-    Program name    : .cpp
+    Program name    : L2-2.cpp
 
     Written by      : William Laffey
 
@@ -24,14 +24,17 @@
                                                                         */
 #include <iostream>
 #include <iomanip>
+#include "invalidHr.h"
+#include "invalidMin.h"
+#include "invalidSec.h"
 using namespace std;
 
 int main() 
 {
     //Header
     cout << endl << "William Laffey\t"
-         << "L1-1\t"
-         << "L1-1.exe" << endl;
+         << "L2-2\t"
+         << "L2-2.exe" << endl;
 
     
 
