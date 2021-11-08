@@ -30,8 +30,8 @@ int main()
 {
     //Header
     cout << endl << "William Laffey\t"
-         << "L1-1\t"
-         << "L1-1.exe" << endl;
+         << "L3-1\t"
+         << "L3-1.exe" << endl;
 
     
 
