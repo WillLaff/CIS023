@@ -23,7 +23,6 @@
     00/00/21      wlaffey  001.000.000 Initial release of program       
                                                                         */
 #include <iostream>
-#include <iomanip>
 using namespace std;
 
 int main() 
