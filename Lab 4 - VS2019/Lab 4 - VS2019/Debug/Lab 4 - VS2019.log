@@ -1,0 +1,2 @@
+﻿  L4-1.cpp
+H:\School\Solano CC\2021-2022\Fall\CIS 023\Lab4\binarySearchTreeType.h(105): error C4703: potentially uninitialized local pointer variable 'trailCurrent' used
